@@ -1,0 +1,15 @@
+{
+	"name": "azureproject-dfact",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "f24c93d1-ad1b-4ad6-ba29-c098147bdc66",
+		"tenantId": "d43b87ef-e81f-4d73-b9e4-162bb11b4702"
+	}
+}
